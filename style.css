@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+#titulo-menusuperior{
+    margin-top: 75px;
+    margin-left: 170px;
+    font-size: 300%;
+}
+
+#texto-menusuperior{
+    margin-top: 25px;
+    margin-left: 170px;
+    padding-bottom: 100px;
+    font-size: 130%;
+}
+
+#menu-superior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: white;
+    background-size: 2500px;
+    
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+    block-size: 25%;
+}
+
+.textoinformacional{
+    display: flex;
+    align-items: center;
+    font-size: 110%;
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 50px 25px 50px 250px;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 70px;
+    font-size: 300%;
+}
+
+#texto-videoo{
+    font-size: 120%;
+}
+
+#texto-video{
+    margin-left: 0px;
+    margin-right: 150px;
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    text-align: center;
+    color: #EAECE5;
+}
+
+#cards-carrossel{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+#Samantha{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+.seta{
+    margin-top: 80%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    margin: 25px;
+    color: #383838;
+    font-size: 30px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+
+}
+
+button{
+    background-color:#247BA0;
+    width: 250px;
+    height: 45px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2393c4;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0d132596;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
